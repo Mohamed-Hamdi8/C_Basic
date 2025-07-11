@@ -83,6 +83,30 @@
             //Console.WriteLine("Full Name: " + fullName02);
             //Console.WriteLine("Full Name: " + fullName03);
             #endregion
+
+            #region 8- Write a program that calculates the simple interest given the principal amount, rate of interest, and time. 
+            //double principal;
+            //double rate;
+            //double time;
+            //bool flag;
+            //do
+            //{
+            //    Console.Write("Enter principal amount :  ");
+            //    flag = double.TryParse(Console.ReadLine(), out principal );
+            //} while (!flag || principal < 0 );
+            //do
+            //{
+            //    Console.Write("Enter rate of interest :  ");
+            //    flag = double.TryParse(Console.ReadLine(), out rate);
+            //} while (!flag);
+            //do
+            //{
+            //    Console.Write("Enter time [ number of Years] :  ");
+            //    flag = double.TryParse(Console.ReadLine(), out time);
+            //} while (!flag);
+            //double SimpleInterest = (principal * rate * time) / 100;
+            //Console.WriteLine($"\nSimple Interest = {SimpleInterest:f3}");
+            #endregion
         }
         class Point
         {
