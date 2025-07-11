@@ -192,6 +192,30 @@
             //else
             //    Console.WriteLine("Postive");
             #endregion
+
+            #region 14- Write a program that takes 3 integers from the user then prints the max element and the min element.
+            //bool parsed;
+            //int number01;
+            //int number02;
+            //int number03;
+            //do
+            //{
+            //    Console.Write("Enter Number01 : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out number01);
+            //} while (!parsed);
+            //do
+            //{
+            //    Console.Write("Enter Number02 : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out number02);
+            //} while (!parsed);
+            //do
+            //{
+            //    Console.Write("Enter Number03 : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out number03);
+            //} while (!parsed);
+            //Console.WriteLine($"max element = {Math.Max(number01, Math.Max(number02,number03))}");
+            //Console.WriteLine($"min element = {Math.Min(number01, Math.Min(number02,number03))}");
+            #endregion
         }
         class Point
         {
