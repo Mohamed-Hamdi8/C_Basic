@@ -165,6 +165,20 @@
             //Console.WriteLine($"{day} - {month} - {year}");
             #endregion
 
+            #region 12- Write a program that takes a number from the user then print yes if that number can be divided by 3 and 4 otherwise print no.
+            //bool parsed;
+            //int number;
+            //do
+            //{
+            //    Console.Write("Enter Number : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out number);
+            //} while (!parsed);
+            //if(number % 3 ==0 && number %4 ==0)
+            //    Console.WriteLine("Yes");
+            //else
+            //    Console.WriteLine("No");
+            #endregion
+
         }
         class Point
         {
