@@ -58,6 +58,24 @@
             //Console.WriteLine("Value of a: " + A);  // Output: 10 not changed becuase it's value type
             //Console.WriteLine("Value of b: " + B);  // Output: 20
             #endregion
+
+            #region 6- Write C# program that Assigning one reference type variable to another and modifying the object through one variable and mention what will happen
+            //Point p1 = new Point() ;
+            //p1.X = 5;
+
+            //Point p2 = p1;
+
+            //p2.X = 100;              
+
+            //Console.WriteLine("p1.X = " + p1.X);  // Output: 100 , because P2 It has become a sign of P1 and any modify on P2 will affect on P1
+            //Console.WriteLine("p2.X = " + p2.X);  // Output: 100
+            #endregion
         }
+        class Point
+        {
+            public int X;
+            public int Y;
+        }
+
     }
 }
