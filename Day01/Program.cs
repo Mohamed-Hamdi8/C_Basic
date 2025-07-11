@@ -126,6 +126,18 @@
             //double BMI = weight/(height * height);
             //Console.WriteLine($"BMI = {BMI:f2}");
             #endregion
+
+            #region 10- Write a program that uses the ternary operator to check if the temperature is too hot, too cold, or just good. Assign the result in a variable then display the result.
+            //bool parsed;
+            //double temp;
+            //do
+            //{
+            //    Console.Write("Enter Temperture : "); 
+            //    parsed = double.TryParse(Console.ReadLine(), out temp);
+            //} while (!parsed);
+            //string status = temp < 10 ? "Just Cold" : temp > 30 ? "Just Hot" : "Just Good";
+            //Console.WriteLine($"The Weather is : {status}");
+            #endregion
         }
         class Point
         {
