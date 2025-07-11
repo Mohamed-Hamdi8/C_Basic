@@ -70,6 +70,19 @@
             //Console.WriteLine("p1.X = " + p1.X);  // Output: 100 , because P2 It has become a sign of P1 and any modify on P2 will affect on P1
             //Console.WriteLine("p2.X = " + p2.X);  // Output: 100
             #endregion
+
+            #region 7-Write C# program that take two string variables and print them as one variable
+            //string firstName = "Mohamed";
+            //string lastName = "Hamdi";
+
+            //string fullName01 = string.Format("{0} {1}", firstName, lastName);
+            //string fullName02 = firstName + " " + lastName;
+            //string fullName03 = $"{firstName} {lastName}"; //Best Practise
+
+            //Console.WriteLine("Full Name: " + fullName01);
+            //Console.WriteLine("Full Name: " + fullName02);
+            //Console.WriteLine("Full Name: " + fullName03);
+            #endregion
         }
         class Point
         {
