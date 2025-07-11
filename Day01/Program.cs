@@ -230,6 +230,21 @@
             //else
             //    Console.WriteLine("Is Odd");
             #endregion
+
+            #region 16- Write a program that takes character from the user then if it is a vowel chars (a,e,I,o,u) then print (vowel) otherwise print (consonant).
+            //bool parsed;
+            //char character;
+            //do
+            //{
+            //    Console.Write("Enter character : ");
+            //    parsed = char.TryParse(Console.ReadLine(), out character);
+            //} while (!parsed);
+            //char UserChar = char.ToLower(character);
+            //if ("aeiou".Contains(UserChar))
+            //    Console.WriteLine("Vowel");
+            //else
+            //    Console.WriteLine("Consonant");
+            #endregion
         }
         class Point
         {
