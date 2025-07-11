@@ -107,6 +107,25 @@
             //double SimpleInterest = (principal * rate * time) / 100;
             //Console.WriteLine($"\nSimple Interest = {SimpleInterest:f3}");
             #endregion
+
+            #region 9- Write a program that calculates the Body Mass Index (BMI) given a person's weight in kilograms and height in meters. 
+            //double weight;
+            //double height;
+            //bool parsed;
+            //do
+            //{
+            //    Console.Write("Enter Your Weight [Kg] : ");
+            //    parsed = double.TryParse(Console.ReadLine(), out weight);
+            //}while (!parsed || weight < 0);
+            //do
+            //{
+            //    Console.Write("Enter Your Height [Metre] : ");
+            //    parsed = double.TryParse(Console.ReadLine(), out height);
+            //} while (!parsed || height < 0);
+
+            //double BMI = weight/(height * height);
+            //Console.WriteLine($"BMI = {BMI:f2}");
+            #endregion
         }
         class Point
         {
