@@ -48,6 +48,16 @@
             //Console.WriteLine(Name.Substring(2, 5));
 
             #endregion
+
+            #region 5- Write C# program that Assigning one value type variable to another and modifying the value of one variable and mention what will happen
+            //int A = 10;  
+            //int B = A;       
+
+            //B = 20;          // Change the value of 'b' to 20
+
+            //Console.WriteLine("Value of a: " + A);  // Output: 10 not changed becuase it's value type
+            //Console.WriteLine("Value of b: " + B);  // Output: 20
+            #endregion
         }
     }
 }
