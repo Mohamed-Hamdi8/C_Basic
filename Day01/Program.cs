@@ -216,6 +216,20 @@
             //Console.WriteLine($"max element = {Math.Max(number01, Math.Max(number02,number03))}");
             //Console.WriteLine($"min element = {Math.Min(number01, Math.Min(number02,number03))}");
             #endregion
+
+            #region 15- Write a program that allows the user to insert an integer number then check If a number is even or odd.
+            //bool parsed;
+            //int number;
+            //do
+            //{
+            //    Console.Write("Enter Number : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out number);
+            //} while (!parsed);
+            //if(number%2 == 0)
+            //    Console.WriteLine("Is Even");
+            //else
+            //    Console.WriteLine("Is Odd");
+            #endregion
         }
         class Point
         {
