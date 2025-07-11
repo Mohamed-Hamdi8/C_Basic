@@ -12,6 +12,21 @@
             //    Parsed = int.TryParse(Console.ReadLine(), out int Num);
             //} while (!Parsed);
             #endregion
+
+
+            #region 2- Write C# program that converts a string to an integer, but the string contains non-numeric characters. And mention what will happen
+            //try
+            //{
+            //    string Name = "Mohamed";
+            //    int X = int.Parse(Name);
+            //    Console.WriteLine(X); //Will create obj from class Exception(throw exception)  --> System.FormatException {The input string 'Mohamed' was not in a correct format}.
+            //                          //Run Time Error
+            //}
+            //catch (Exception ex) 
+            //{
+            //    Console.WriteLine("Error: " + ex.Message);
+            //}
+            #endregion
         }
     }
 }
