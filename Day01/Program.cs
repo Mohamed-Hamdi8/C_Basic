@@ -13,7 +13,6 @@
             //} while (!Parsed);
             #endregion
 
-
             #region 2- Write C# program that converts a string to an integer, but the string contains non-numeric characters. And mention what will happen
             //try
             //{
@@ -35,7 +34,19 @@
             //float result = Num01 / Num02;
 
             //Console.WriteLine("Result of division: " + result); //nothing will happen its simple operation
-            
+
+            #endregion
+
+            #region 4-Write C# program that Extract a substring from a given string.
+            //string Name = "Mohamed";
+            ////Extruct hamed
+            //for (int i = 2; i < Name.Length; i++)
+            //{
+            //    Console.Write(Name[i]);
+            //}
+            ////or
+            //Console.WriteLine(Name.Substring(2, 5));
+
             #endregion
         }
     }
