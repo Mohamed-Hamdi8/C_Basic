@@ -149,12 +149,12 @@
             //{
             //    Console.Write("Day :  ");
             //    flag = int.TryParse(Console.ReadLine(), out day);
-            //} while (!flag || (day < 0 && day > 31));
+            //} while (!flag || day <= 0 || day > 31);
             //do
             //{
             //    Console.Write("Month :  ");
             //    flag = int.TryParse(Console.ReadLine(), out month);
-            //} while (!flag || (month<0 && month >12));
+            //} while (!flag || month<=0 || month >12);
             //do
             //{
             //    Console.Write("Year :  ");
@@ -244,6 +244,28 @@
             //    Console.WriteLine("Vowel");
             //else
             //    Console.WriteLine("Consonant");
+            #endregion
+
+            #region 17- Write a program to input the month number and print the number of days in that month.
+            //bool parsed;
+            //int month;
+            //do
+            //{
+            //    Console.Write("Enter Month : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out month);
+            //} while (!parsed || month <= 0 || month > 12);
+            //switch (month)
+            //{
+            //    case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+            //        Console.WriteLine("Days in Month: {31}");
+            //        break;
+            //    case 4: case 6: case 9: case 11:
+            //        Console.WriteLine("Days in Month: {30}");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("Days in Month: {28 or 29}");
+            //        break;
+            //}
             #endregion
         }
         class Point
