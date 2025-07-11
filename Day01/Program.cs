@@ -27,6 +27,16 @@
             //    Console.WriteLine("Error: " + ex.Message);
             //}
             #endregion
+
+            #region 3- Write C# program that Perform a simple arithmetic operation with floating-point numbers And mention what will happen
+            //float Num01 = 10.5f;
+            //float Num02 = 3.2f;
+
+            //float result = Num01 / Num02;
+
+            //Console.WriteLine("Result of division: " + result); //nothing will happen its simple operation
+            
+            #endregion
         }
     }
 }
