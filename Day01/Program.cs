@@ -92,18 +92,18 @@
             //do
             //{
             //    Console.Write("Enter principal amount :  ");
-            //    flag = double.TryParse(Console.ReadLine(), out principal );
-            //} while (!flag || principal < 0 );
+            //    flag = double.TryParse(Console.ReadLine(), out principal);
+            //} while (!flag || principal <= 0);
             //do
             //{
             //    Console.Write("Enter rate of interest :  ");
             //    flag = double.TryParse(Console.ReadLine(), out rate);
-            //} while (!flag);
+            //} while (!flag || rate <=0);
             //do
             //{
             //    Console.Write("Enter time [ number of Years] :  ");
             //    flag = double.TryParse(Console.ReadLine(), out time);
-            //} while (!flag);
+            //} while (!flag || time <= 0);
             //double SimpleInterest = (principal * rate * time) / 100;
             //Console.WriteLine($"\nSimple Interest = {SimpleInterest:f3}");
             #endregion
@@ -138,6 +138,33 @@
             //string status = temp < 10 ? "Just Cold" : temp > 30 ? "Just Hot" : "Just Good";
             //Console.WriteLine($"The Weather is : {status}");
             #endregion
+
+            #region 11- Write a program that takes the date from the user and displays it in various formats using string interpolation.
+            //Console.WriteLine("Enter Date ");
+            //int day;
+            //int month;
+            //int year;
+            //bool flag;
+            //do
+            //{
+            //    Console.Write("Day :  ");
+            //    flag = int.TryParse(Console.ReadLine(), out day);
+            //} while (!flag || (day < 0 && day > 31));
+            //do
+            //{
+            //    Console.Write("Month :  ");
+            //    flag = int.TryParse(Console.ReadLine(), out month);
+            //} while (!flag || (month<0 && month >12));
+            //do
+            //{
+            //    Console.Write("Year :  ");
+            //    flag = int.TryParse(Console.ReadLine(), out year);
+            //} while (!flag);
+            //Console.WriteLine($"{day} , {month} , {year}");
+            //Console.WriteLine($"{day} / {month} / {year}");
+            //Console.WriteLine($"{day} - {month} - {year}");
+            #endregion
+
         }
         class Point
         {
